@@ -256,8 +256,8 @@ export const projects = [
      
     ],
     category: "web app",
-    github: "https://github.com/anshita005/My-Portfolio",
-    webapp: "https://github.com/anshita005",
+    github: "https://github.com/NandlalShah955/Personal-portfolio",
+    webapp: "https://nandlalsaw-portfolio.netlify.app/",
   },
   {
     id: 2,
