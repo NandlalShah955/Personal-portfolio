@@ -1,3 +1,9 @@
+import alea from "../images/alea.png"
+import codeclause from "../images/codeclause_logo.jpeg";
+import mydevteam from "../images/mydevteam_logo.jpeg";
+import masai from "../images/masaischool_logo.jpeg";
+import du from "../images/du.jpeg"
+import tailwind from "../images/tailwind.jpeg"
 export const Bio = {
   name: "Nandlal Saw",
   roles: [
@@ -67,7 +73,7 @@ export const skills = [
      
       {
         name: "Tailwind CSS",
-        image: " https://raw.githubusercontent.com/anshita005/My-Portfolio/main/tailwind-css-logo-png_seeklogo-354675.png",
+        image: tailwind,
       },
       
    
@@ -122,7 +128,7 @@ export const skills = [
       {
         name: "Netlify",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://images.seeklogo.com/logo-png/27/1/netlify-logo-png_seeklogo-273744.png",
       },
       {
         name: "VS Code",
@@ -152,7 +158,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D560BAQHMMT4AYg7dDA/company-logo_100_100/company-logo_100_100/0/1734934168825/aleait_solutions_logo?e=1743638400&v=beta&t=NYOeWcgMhJRFjyt9NBhlSZFL-b4PUL2UD31KmYTrt48",
+    img: mydevteam,
+    role: "SDE-1",
+    company: "MyDevTeam",
+    date: "Jan 2025 - Present",
+    desc: "Worked on diverse projects, including a multi-user platform with admin, super admin, and user roles, each with distinct access levels; a COGS and MRR management system integrating APIs and processing data from AWS S3 and Google Drive; a lead generation product featuring a custom survey builder with Rete.js and a Many Chat-like editor; and an Inventory/Patient Management System with Redux Toolkit, responsive UI, and robust API integrations for efficient catalog and profile management.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "TailwindCss",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "API Integration",
+      "Ant Design",
+      "Postman",
+    ],
+    
+  },
+  {
+    id: 1,
+    img: alea,
     role: "Mern Stack Developer",
     company: "AleaIt Solutions Pvt. Ltd.",
     date: "July 2023 - Nov 2024",
@@ -177,7 +203,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQFheEbgt4_U_w/company-logo_100_100/company-logo_100_100/0/1661277231688/codeclause_logo?e=1743638400&v=beta&t=gzRqgaqZH4TH4krTJ986_STOMiSX4EHFanLWFbbe7-U",
+    img: codeclause,
     role: "Web Developer Intern",
     company: "Code Clause",
     date: "May 2023 - July 2023",
@@ -199,7 +225,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D560BAQGoTSZe7RRwgA/company-logo_100_100/company-logo_100_100/0/1734342654523/masaischool_logo?e=1743638400&v=beta&t=wqdai7AdvUqBWU1aPmVEkp9PolwX7DTcZzqlWplX4IU",
+    img: masai,
     school: "Masai School",
     date: "April 2022 - Mar 2023",
     grade: " 8.1 CGPA",
@@ -208,7 +234,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/v2/C4D0BAQGNYUwkC1YEEQ/company-logo_100_100/company-logo_100_100/0/1674548936157/_logo?e=1743638400&v=beta&t=ifZZVfL6kM6jo_iIFwawofoGfQW-c0mLocDf7xoQ12I",
+    img: du,
     school: "Delhi University",
     date: "Aug 2019 - May 2022",
     grade: " 7.6 CGPA",
@@ -220,6 +246,24 @@ export const education = [
 export const projects = [
   {
     id: 1,
+    title: "Must Help Foundation",
+    description:
+      "Must Help Foundation is NGO which helps to celebrate your you to celebrate your birthdays, anniversaries, and other special occasions with underprivileged children and families ",
+    image:
+      "https://github.com/NandlalShah955/NandlalShah955.github.io/blob/main/stuff/images/Screenshot%202026-01-31%20185420.png?raw=true",
+    tags: [
+      "React.Js",
+      "Redux",
+      "Javascript",
+      "CSS",
+      "HTML"
+    ],
+    category: "web app",
+    github: "https://github.com/NandlalShah955/Must-help-Foundation",
+    webapp: "https://musthelp-foundation.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Chargebee Clone",
     description:
       "Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow.",
@@ -242,7 +286,7 @@ export const projects = [
     webapp: "https://abandoned-reaction-8426-dhamisir.vercel.app/",
   },
   {
-    id: 1,
+    id: 3,
     title: "My Portfolio",
     description:
       "My Portfolio is a React.js application that serves as an online portfolio to showcase my work, skills, and achievements. It provides an overview of my background, displays my projects, and offers a way to contact me.",
@@ -260,7 +304,7 @@ export const projects = [
     webapp: "https://nandlalsaw-portfolio.netlify.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "SkinStore Clone",
     description:
       "SkinStore is the online hub where beauty and science click, delivering the latest in innovative clinical skincare and luxury products for over 20 years.",
@@ -281,7 +325,7 @@ export const projects = [
     webapp: "https://blossom-two.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Best Buy Clone",
     description:
       "Best Buy is an E-commerce website in this website we can purchase various products like Beauty Products , Dresses , Women Clothes and Accessories.",
@@ -293,7 +337,7 @@ export const projects = [
     webapp: "https://bestbuyclonebynandlal.netlify.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Blue Mercury Clone",
     description:
       "A leader in luxury beauty and skincare, Purpose of BlueMercury is to create an inviting online beauty shopping experience.",
@@ -305,7 +349,7 @@ export const projects = [
     webapp: "https://tiny-lamington-704c8c.netlify.app/",
   },
   {
-    id: 4,
+    id: 7,
     title: "Balloon Mahal",
     description:
       "A Balloon Decoration Startup Business",

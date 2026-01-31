@@ -100,6 +100,7 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
+  cursor:pointer;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
     225deg,
@@ -131,11 +132,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
       e.preventDefault();
-
-      if (form.current) { // Check if form.current is not null
+//  Check if form.current is not null
+      if (form.current) { 
           emailjs
               .sendForm(
-                  "service_ikg2t1i",
+                  "service_v9qmz8l",
                   "template_0beylrw",
                   form.current,
                   "BBwKTKCTiy41O8NPN",
