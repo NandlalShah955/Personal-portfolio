@@ -17,7 +17,7 @@ export const Bio = {
   github: "https://github.com/NandlalShah955",
   gmail: "nandlalsaw789@gmail.com",
   resume:
-    "https://drive.google.com/file/d/1dMee74PHAEO54BUC8Lb1fL5v84sZbRs9/view",
+    "https://drive.google.com/file/d/1yQkWUakT1sHQL8WavK40y1lvqszp2tHW/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nandlal-saw-a2761822b/",
 
 };
@@ -162,7 +162,7 @@ export const experiences = [
     role: "SDE-1",
     company: "MyDevTeam",
     date: "Jan 2025 - Present",
-    desc: "Worked on diverse projects, including a multi-user platform with admin, super admin, and user roles, each with distinct access levels; a COGS and MRR management system integrating APIs and processing data from AWS S3 and Google Drive; a lead generation product featuring a custom survey builder with Rete.js and a Many Chat-like editor; and an Inventory/Patient Management System with Redux Toolkit, responsive UI, and robust API integrations for efficient catalog and profile management.",
+    desc: "Led frontend development for innovative web platforms, including a merchant rewards system that incentivizes businesses for every dollar processed via card payments. Designed and implemented role-based authentication (Super Admin, Merchant Admin, ISO Admin) with dedicated dashboards and granular authorization. Built fully responsive UIs using Tailwind CSS, implemented lazy loading for data-heavy tables, and integrated ANT Design (ANTD) components for scalable UI development.Additionally, contributed to a Music Distribution platform, enabling artists to upload music and digitally sign contracts",
     skills: [
       "ReactJS",
       "Redux",
